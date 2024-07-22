@@ -1,0 +1,69 @@
+﻿  0Equipment.cpp
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,39): error C2679: 二元“<<”: 没有找到接受“overloaded-function”类型的右操作数的运算符(或没有可接受的转换)
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(475,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(443,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(425,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(407,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(389,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(371,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(353,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(335,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(317,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(298,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(272,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(253,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(219,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(201,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(195,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(189,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(184,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(887,32): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,_Elem)”
+          with
+          [
+              _Elem=char
+          ]
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(844,32): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *)”
+          with
+          [
+              _Elem=char
+          ]
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(1075,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“const std::error_code &”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 原因如下: 无法从“overloaded-function”转换为“const std::error_code”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(998,9): message : 或    “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,54): message : “_Ostr &&std::operator <<(_Ostr &&,const _Ty &)”: 无法推导“_Ty”的 模板 参数
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(940,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“unsigned char”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(934,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“const unsigned char *”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(929,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“signed char”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(923,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“const signed char *”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(806,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“char”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(761,31): message : 或    “std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“const char *”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(725,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“char”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\ostream(681,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : “初始化”: 无法从“overloaded-function”转换为“const char *”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,51): message : 上下文不允许消除重载函数的歧义
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\memory(3629,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,54): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法推导“_Yty”的 模板 参数
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,54): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)”: 无法推导“_Dx”的 模板 参数
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\memory(1976,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,54): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)”: 无法推导“_Ty”的 模板 参数
+D:\VS2022\VC\Tools\MSVC\14.36.32532\include\xstring(5221,32): message : 或    “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,54): message : “std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)”: 无法推导“_Alloc”的 模板 参数
+D:\0000各个学科文件\1大一上\程序设计基础(C++)\大作业-实验设备管理系统\实验设备管理系统\0Equipment.cpp(226,39): message : 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, overloaded-function)”时
+  3SaoMiaoYi.cpp
+  正在生成代码...
